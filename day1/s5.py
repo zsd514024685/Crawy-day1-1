@@ -6,5 +6,5 @@ response = requests.get(
 )
 response.encoding = response.apparent_encoding
 soup = BeautifulSoup(response.text,features='html.parser')
-taraget = soup.find('id="auto-index-form-illegal"')
-print(taraget)
+target = soup.find('id="auto-index-form-illegal"')
+print(target)
