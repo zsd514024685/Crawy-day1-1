@@ -7,6 +7,6 @@ heads = { 'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 
 
 
  }
-requset = urllib.request.Request(url=url,headers=heads)
-response=urllib.request.urlopen(requset)
+request = urllib.request.Request(url=url,headers=heads)
+response=urllib.request.urlopen(request)
 print(response.read().decode('utf'))
